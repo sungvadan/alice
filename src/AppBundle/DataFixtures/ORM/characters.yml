@@ -1,0 +1,26 @@
+AppBundle\Entity\Character:
+    character_1:
+        name: luigi
+        realName: John Leguizamo
+        highScore: 1000
+        email: luigi@nintendo.com
+        universe: @universe_1
+        tagLine: Let's it begin
+        avatarFilename: <avatarFilename()>
+
+    character_{2..10}:
+        name: <heroName()>
+        universe: @universe_*
+        realName: <firstName()> <lastName()>
+        highScore: <numberBetween(500,3000)>
+        email: <email()>
+        tagLine: 80%? <sentence()>
+        avatarFilename: <avatarFilename()>
+
+AppBundle\Entity\Universe:
+    universe_1:
+        name: sega
+    universe_2:
+        name: nintendo
+    universe_3:
+        name: arcadre

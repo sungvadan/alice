@@ -1,0 +1,90 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "install-alicebundle",
+            "name": "Install AliceBundle",
+            "description": null
+        },
+        {
+            "id": "first-easy-fixtures",
+            "name": "First easy fixtures",
+            "description": null
+        },
+        {
+            "id": "using-a-range",
+            "name": "Using a range",
+            "description": null
+        },
+        {
+            "id": "using-current",
+            "name": "Using current()",
+            "description": null
+        },
+        {
+            "id": "using-faker-data",
+            "name": "Using Faker Data!",
+            "description": null
+        },
+        {
+            "id": "using-percentages-for-values",
+            "name": "Using percentages for values",
+            "description": null
+        },
+        {
+            "id": "custom-formatter",
+            "name": "Custom formatter",
+            "description": null
+        },
+        {
+            "id": "adding-relations",
+            "name": "Adding relations",
+            "description": null
+        },
+        {
+            "id": "random-relations",
+            "name": "Random relations",
+            "description": null
+        },
+        {
+            "id": "multiple-files",
+            "name": "Multiple Files",
+            "description": null
+        },
+        {
+            "id": "image-start-to-set-avatarfilename",
+            "name": "Image: Start to set avatarFilename",
+            "description": null
+        },
+        {
+            "id": "image-add-formatter-for-random-image",
+            "name": "Image: Add formatter for random image",
+            "description": null
+        },
+        {
+            "id": "image-add-blank-processor",
+            "name": "Image: Add blank processor",
+            "description": null
+        },
+        {
+            "id": "image-copy-in-the-processor",
+            "name": "Image: Copy in the processor",
+            "description": null
+        },
+        {
+            "id": "image-randomize-filename-in-processor",
+            "name": "Image: Randomize filename in processor",
+            "description": null
+        },
+        {
+            "id": "image-injecting-the-logger",
+            "name": "Image: Injecting the logger",
+            "description": null
+        }
+    ],
+    "sha": "c595ff4d7ace790b30e92e43b0006a6fd06ffe33"
+}

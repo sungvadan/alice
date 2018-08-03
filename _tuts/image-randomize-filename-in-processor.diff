@@ -1,0 +1,22 @@
+diff --git a/src/AppBundle/DataFixtures/ORM/AvatarProcessor.php b/src/AppBundle/DataFixtures/ORM/AvatarProcessor.php
+index c34adc6..5bc3b59 100644
+--- a/src/AppBundle/DataFixtures/ORM/AvatarProcessor.php
++++ b/src/AppBundle/DataFixtures/ORM/AvatarProcessor.php
+@@ -24,13 +24,16 @@ class AvatarProcessor implements ProcessorInterface
+         }
+ 
+         $projectRoot = __DIR__.'/../../../..';
++        $targetFilename = 'fixtures_'.mt_rand(0, 100000).'.jpg';
+ 
+         $fs = new Filesystem();
+         $fs->copy(
+             $projectRoot.'/resources/'.$object->getAvatarFilename(),
+-            $projectRoot.'/web/uploads/avatars/'.$object->getAvatarFilename(),
++            $projectRoot.'/web/uploads/avatars/'.$targetFilename,
+             true
+         );
++
++        $object->setAvatarFilename($targetFilename);
+     }
+ 
+     /**

@@ -1,0 +1,15 @@
+diff --git a/src/AppBundle/DataFixtures/ORM/characters.yml b/src/AppBundle/DataFixtures/ORM/characters.yml
+index 0ddd6a7..bc4755c 100644
+--- a/src/AppBundle/DataFixtures/ORM/characters.yml
++++ b/src/AppBundle/DataFixtures/ORM/characters.yml
+@@ -5,8 +5,9 @@ AppBundle\Entity\Character:
+         highScore: 99999
+         email: yoshi@nintendo.com
+         tagLine: Yoshi!
++
+     character{2..10}:
+-        name: Mario
++        name: Mario<current()>
+         realName: Homo Nintendonus
+         highScore: 50000
+         email: mario@nintendo.com
